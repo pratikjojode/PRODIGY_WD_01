@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d25cfcce1c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navigation -->
+  <header>
+    <div class="navigation">
+      <div class="container">
+        <div class="logo">
+          <h1><span class="P">P</span>.<span class="J">J</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#hero">home</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#blog ">Blog</a></li>
+            <li><a href="#hero-1">Contact</a></li>
+          </ul>
+          <button type="submit">LOG IN</button>
+          <i onclick="openNav()" class="fa-solid fa-bars " id="icon"></i>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- section nav for responsive ness -->
+
+  <!-- Second navigation bar (responsive) -->
+  <header>
+    <nav class="second-nav open">
+      <i onclick="closeNav()" class="fa-solid fa-x"></i>
+      <ul>
+        
+            <li><a href="#hero">home</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#blog ">Blog</a></li>
+            <li><a href="#hero-1">Contact</a></li>
+      </ul>
+      <button type="submit" id="btn-2"><a href="#hero-1">LOG IN</a></button>
+    </nav>
+  </header>
+
+  <!-- hero section -->
+  <section id="hero">
+    <div class="container-2">
+      <h1>Crafting Digital Experiences, One Line of Code at a Time</h1>
+      <p>
+        As a dedicated web developer, I bring ideas to life in the digital
+        realm. From responsive designs to dynamic functionalities, my passion
+        is to create seamless and innovative web experiences. Let's
+        collaborate and build something extraordinary for your online
+        presence.
+      </p>
+      <a href="#contact" class="cta-button">Get in Touch</a>
+    </div>
+    <i class="fa-solid fa-down-long"></i>
+  </section>
+
+  <!-- work section -->
+  <section id="work">
+    <div class="container-3">
+      <div class="row">
+        <div class="col-1">
+          <h1>Spotify-Clone</h1>
+          <p>
+            Dive into the world of music with my Spotify Clone—a web application replicating the renowned music
+            streaming platform. This project showcases my skills in frontend and backend development, utilizing
+            React.js, Node.js, and Spotify's API. Experience secure user authentication, intuitive exploration of
+            tracks, albums, and artists, robust search functionality, and seamless playlist management with playback
+            controls. The Spotify-like interface is enhanced by a responsive design for a consistent experience across
+            devices.
+          </p>
+        </div>
+        <div class="col-2"><img src="images/SPOTIFY.png" " alt=""></div>
+          
+        </div>
+
+        <div class=" row">
+          <div class="col-2"><img src="images/CRYPTO.png" " alt=""></div>
+          <div class=" col-1">
+            <h1>CRYPTO Website</h1>
+
+            <p>
+              Introducing CryptoTracker, your go-to mobile application for an immersive and seamless cryptocurrency
+              tracking experience. This app is meticulously designed and developed to keep you updated on real-time
+              market data, manage your crypto portfolio, and stay informed with curated news—all within the convenience
+              of your mobile device.
+            </p>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+  <!-- skills section -->
+  <section id="skills">
+    <div class="container-4">
+      <h1>My Skills</h1>
+      <div class="grid">
+        <div class="cell">
+          <img src="images/html.png" alt="Skill 1" />
+          <p>HTML (HyperText Markup Language)</p>
+        </div>
+        <div class="cell">
+          <img src="images/css.png" alt="Skill 2" />
+          <p>CSS (Cascading Style Sheets)</p>
+        </div>
+        <div class="cell">
+          <img src="images/js.png" alt="Skill 3" />
+          <p>JavaScript</p>
+        </div>
+        <div class="cell">
+          <img src="images/express.png" alt="Skill 3" />
+          <p>Express.js</p>
+        </div>
+        <div class="cell">
+          <img src="images/react.png" alt="Skill 3" />
+          <p>React.js</p>
+        </div>
+        <div class="cell">
+          <img src="images/nodejs.png" alt="Skill 3" />
+          <p>Node.js</p>
+        </div>
+        <div class="cell">
+          <img src="images/mongo.png" alt="Skill 3" />
+          <p>MongoDB</p>
+        </div>
+        <div class="cell">
+          <img src="images/ejs.jpg" alt="Skill 3" />
+          <p>EJS</p>
+        </div>
+        <div class="cell">
+          <img src="images/sql.png" alt="Skill 3" />
+          <p>SQL</p>
+        </div>
+        <!-- Repeat the above structure for the remaining 3 cells -->
+      </div>
+    </div>
+  </section>
+
+  <!-- blog page -->
+
+  <section id="blog">
+    <h1>Blog Section</h1>
+    <div class="line">
+      <div class="img-div"><img src="images/blog.jpg" alt="" /></div>
+      <div class="text-div">
+        <p>Web-devlopment</p>
+        <h1>Culture</h1>
+        <p>
+          No matter which industry you're working in, the first impression always matters. In this landing page design
+          quote template, the first thing your client sees is a nicely designed cover, fit for a world-class design
+          company like yours. From the text, logo, and background image, you can change everything to make it a better
+          fit for your needs..
+        </p>
+      </div>
+    </div>
+    <div class="line">
+      <div class="img-div"><img src="images/blog2.jpg" alt="" /></div>
+      <div class="text-div">
+        <p>frontend-devloper</p>
+        <h1>Culture</h1>
+        <p>
+          Writing about what you do is never easy. How much is too much? Is it clear enough for your clients to
+          understand it? Completely valid questions that you no longer have to worry about. In this landing page design
+          quote template, the page detailing the work you're going to do is done, with an introduction and structure
+          already prepared. You just need to add a few client specifics, and that's it! Like the rest of this quote,
+          it's all editable - the colors, the text, images, layout - everything.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- contact form -->
+  <div id="hero-1">
+    <h3>Coming Soon!</h3>
+    <h1>OurBrand New<br />Website Is on its way!</h1>
+    <p>Subscribe for more details</p>
+    <form name="submit-to-google-sheet">
+      <input type="email" name="Email" id="" placeholder="Enter Your Email Id" />
+
+      <button type="submit">
+        <i class="fa-solid fa-share"></i>
+      </button>
+    </form>
+
+    <span id="msg"></span>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container-7">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h1><span class="yellow-text">P</span>J</h1>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <ul>
+            <li><a href="#" class="yellow-text"></a><i class="fa-brands fa-instagram"></i></li>
+            <li><a href="#" class="yellow-text"></a><i class="fa-brands fa-facebook"></i></li>
+            <li><a href="#"class="yellow-text"></a><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 pratikjojode. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
